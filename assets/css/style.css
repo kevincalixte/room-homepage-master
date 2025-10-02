@@ -60,11 +60,28 @@ nav ul {
     flex-direction: column;
     padding: 3rem 2.5rem;
     gap: 1.5rem;
+    /* font-size: smaller */
+    
 }
 
-footer img {
-    width: 100%;
+footer .img1{
+    background-image: url("../img/image-about-dark.jpg");
+    background-size: cover;
+    height: 30vh;
 }
+
+footer .img2{
+    background-image: url("../img/image-about-light.jpg");
+    background-size: cover;
+    height: 30vh;
+}
+
+footer{
+    height: 40vh;
+}
+/* footer img {
+    width: 100%;
+} */
 
 /* BURGER */
 
@@ -72,10 +89,16 @@ footer img {
     display: none;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
 
 
-
-
+footer .about{
+        /* height: 100%; */
+        /* width: 45vw; */
+    }
 
 
 
@@ -96,23 +119,49 @@ footer img {
 
     .hero {
         background-image: url("../img/desktop-image-hero-1.jpg");
-        /* background-size: contain;
-        background-repeat: no-repeat; */
-    }
+      }
 
     header {
-        /* width: 60%; */
+        flex-direction: row;
+        /* height: 70vh; */
     }
 
+    .btns{
+        /* top: 81%; */
+        /* top: 0; */
+        /* left: 0; */
+        /* bottom: 0; */
 
-    main {
-        /* width: 40%; */
+        /* top: 87.1%; */
+        /* left: 0; */
+        /* position: relative;
+        order: 1;
+        top: 0; */
+    }
+    .hero{
+        width: 70%;
     }
 
-    footer {
-        /* width: 100%;
+    .discover{
+        width: 50%;
+        justify-content: center;
+    }
+    footer{
         display: flex;
-        flex-direction: row; */
+        /* outline: 2px red solid; */
+        /* height: 30vh; */
+        justify-content: center;
+        
+    }
+    
+    footer .about{
+        /* width: 100%; */
+    }
+
+    footer .img1, footer .img2{
+        /* outline: 2px blue solid; */
+        /* height: 35vh; */
+        width: 100%;
     }
 
 }
