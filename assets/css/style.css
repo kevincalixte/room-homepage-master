@@ -1,0 +1,118 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.hero {
+    background-image: url("../img/mobile-image-hero-1.jpg");
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    padding-top: 2rem;
+}
+
+nav {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+nav ul {
+    display: none;
+    gap: 3rem;
+    color: white;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2.5rem;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.discover a {
+    display: flex;
+    gap: 2rem;
+}
+
+.btns {
+    position: absolute;
+    top: -4.5rem;
+    right: 0;
+    display: flex;
+}
+
+#btn1,
+#btn2 {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border: none;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2.5rem;
+    gap: 1.5rem;
+}
+
+footer img {
+    width: 100%;
+}
+
+/* BURGER */
+
+#burger-check {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+    nav ul {
+        display: flex;
+        width: 80%;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .hero {
+        background-image: url("../img/desktop-image-hero-1.jpg");
+        /* background-size: contain;
+        background-repeat: no-repeat; */
+    }
+
+    header {
+        /* width: 60%; */
+    }
+
+
+    main {
+        /* width: 40%; */
+    }
+
+    footer {
+        /* width: 100%;
+        display: flex;
+        flex-direction: row; */
+    }
+
+}
